@@ -312,6 +312,29 @@ background: rgba(41, 206, 246, 0.05);
 }
 
 /* --------------------------------------------------------------- */
+/* Deals and Discount section  */
+
+/* --------------------------------------------------------------- */
+/* perfect place section  */
+.perfect_place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem auto;
+}
+.perfect_place_text{
+    width: 50%;
+    /* height: 500px; */
+}
+.perfect_place_video{
+    width: calc( 100% - 50% - 1.5rem );
+}
+.perfect_place_video iframe{
+    height: 550px;
+    border-radius: 1rem;
+}
+/* --------------------------------------------------------------- */
 /* newsletter section style */
 .newsletter{
     display: flex;
@@ -360,8 +383,8 @@ background: rgba(41, 206, 246, 0.05);
     border-radius: 1rem;
     position: absolute;
     transform: rotate(-19.628deg);
-    left: 59%;
-    bottom: 13%;
+    left: 60%;
+    bottom: 15%;
     overflow: hidden;
 }
 /* --------------------------------------------------------------- */
