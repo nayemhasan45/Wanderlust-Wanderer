@@ -189,4 +189,15 @@ p {
         padding-top: .4rem;
         padding-bottom: 1.5rem 
     }
+
+    .tour{
+        flex-direction: column;
+        margin: 4rem auto;
+    }
+    .tour_text{
+        width: 100%;
+    }
+    .tour_img{
+        width: 100%;
+    }
 }
