@@ -27,7 +27,7 @@ p {
     line-height: 26px;
 }
 
-.p_btn{
+.p_btn {
     border-radius: 8px;
     border: none;
     background-color: #FF5400;
@@ -37,6 +37,7 @@ p {
     font-size: 1rem;
     cursor: pointer;
 }
+
 /* --------------------------------------------------------------- */
 /* navbar style logo part*/
 .nav {
@@ -62,8 +63,8 @@ p {
 }
 
 /* navbar style link Part */
-.nav_container{
-}
+.nav_container {}
+
 .nav_link {
     display: flex;
     gap: 2.5rem;
@@ -103,88 +104,107 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .banner_container {
     width: 85%;
 }
+
 .banner_container h1 {
     font-size: 3rem;
 }
-.banner_text p{
+
+.banner_text p {
     padding-top: 1.4rem;
-    padding-bottom: 4.5rem 
+    padding-bottom: 4.5rem
 }
-.banner_input{
+
+.banner_input {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     gap: 1rem;
 }
-.banner_input input{
+
+.banner_input input {
     width: 90%;
     padding: 1rem;
     border-radius: 8px;
     border: 0;
 }
+
 /* --------------------------------------------------------------- */
 /* tour section style */
-.tour{
+.tour {
     display: flex;
     margin: 6rem auto;
     gap: 3rem;
 }
-.tour_text{
+
+.tour_text {
     width: 45%;
 }
-.tour_text h1{
+
+.tour_text h1 {
     font-size: 2.5rem;
 }
-.tour_text p{
+
+.tour_text p {
     padding: 1.5rem 0;
-    color: rgba(19,19,24,0.70);
+    color: rgba(19, 19, 24, 0.70);
 }
-.tour_text ul{
+
+.tour_text ul {
     padding-left: 2rem;
 }
-.tour_img{
-    width: calc( 100% - 45% - 3rem );
+
+.tour_img {
+    width: calc(100% - 45% - 3rem);
 }
-.tour_img img{
+
+.tour_img img {
     width: 100%;
     height: 100%;
 }
+
 /* --------------------------------------------------------------- */
 /* destination section style */
-.destination_text{
+.destination_text {
     text-align: center;
     width: 50%;
     margin: auto;
 }
-.destination_text h1{
+
+.destination_text h1 {
     font-size: 2.5rem;
 }
-.destination_text p{
+
+.destination_text p {
     padding: 1.5rem 0;
-    color: rgba(19,19,24,0.70);
+    color: rgba(19, 19, 24, 0.70);
 }
-.destination_img .img img{
+
+.destination_img .img img {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.destination_img .row_1{
+
+.destination_img .row_1 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.destination_img .row_1 .img{
+
+.destination_img .row_1 .img {
     position: relative;
 }
-.destination_img .row_1 .img p{
+
+.destination_img .row_1 .img p {
     position: absolute;
     font-size: 1.7rem;
     font-weight: 800;
@@ -192,17 +212,20 @@ p {
     top: 50%;
     right: 50%;
 }
-.destination_img .row_2{
+
+.destination_img .row_2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.destination_img .row_2 .img{
+
+.destination_img .row_2 .img {
     position: relative;
 }
-.destination_img .row_2 .img p{
+
+.destination_img .row_2 .img p {
     position: absolute;
     font-size: 1.7rem;
     font-weight: 800;
@@ -210,17 +233,20 @@ p {
     top: 50%;
     right: 50%;
 }
-.destination_img .row_3{
+
+.destination_img .row_3 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.destination_img .row_3 .img{
+
+.destination_img .row_3 .img {
     position: relative;
 }
-.destination_img .row_3 .img p{
+
+.destination_img .row_3 .img p {
     position: absolute;
     font-size: 1.7rem;
     font-weight: 800;
@@ -230,6 +256,61 @@ p {
 }
 
 /* --------------------------------------------------------------- */
+/* choose us section */
+.choose {
+    margin: 3rem auto;
+}
+
+.choose_text {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.choose_text h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #131318;
+}
+
+.choose_text p {
+    padding: 1.5rem 0;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.choose_container {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.choose_cart_p {
+    padding: 3rem 3rem 2rem 2rem;
+    border-radius: 16px;
+    width: 50%;
+    height: 13rem;
+}
+.choose_cart_p i{
+    color: #FF5400;
+    font-size: 2rem;
+}
+
+.choose_cart_p h3 {
+    padding: 2rem 0 1rem 0;
+}
+
+.choose_cart_1,.choose_cart_3 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose_cart_2{
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.choose_cart_3{
+    margin: 1.5rem auto;
+}
+
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 
@@ -238,57 +319,73 @@ p {
     .nav_link {
         display: none;
     }
+
     .nav_logo h1 {
         font-size: 1.4rem;
     }
+
     .nav_logo img {
         width: 10%;
         height: 50%;
         padding-right: .5rem;
     }
+
     .nav_icon {
         display: block;
     }
-    .banner{
+
+    .banner {
         height: 80vh;
     }
-    .banner_input{
+
+    .banner_input {
         flex-direction: column;
     }
-    .banner_container,.destination_text, h1 {
+
+    .banner_container,
+    .destination_text,
+    h1 {
         font-size: 1.4rem;
     }
-    .banner_text p{
+
+    .banner_text p {
         font-size: .9rem;
         padding-top: .4rem;
-        padding-bottom: 1.5rem 
+        padding-bottom: 1.5rem
     }
 
-    .tour{
+    .tour {
         flex-direction: column;
         margin: 4rem auto;
     }
-    .tour_text{
+
+    .tour_text {
         width: 100%;
     }
-    .tour_img{
+
+    .tour_img {
         width: 100%;
     }
-    .destination_text{
+
+    .destination_text {
         width: 100%;
     }
-    .destination_img .img img{
-        max-width: 400px;
-        max-height: 300px;
+
+    .destination_img .img img {
+        width: 400px;
+        height: 300px;
         /* max-height:120px; */
     }
-    .destination_img .row_1{
+
+    .destination_img .row_1 {
         flex-direction: column;
     }
-    .destination_img .row_2{
+
+    .destination_img .row_2 {
         flex-direction: column;
     }
-    .destination_img .row_3{
+
+    .destination_img .row_3 {
         flex-direction: column;
     }
 }
