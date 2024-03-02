@@ -1,0 +1,62 @@
+/* common shared style */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mulish", sans-serif;
+}
+.width{
+    width: 85%;
+    margin: 0px auto;
+}
+.p_color{
+    color: #FF5400;
+}
+.bold{
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+/* --------------------------------------------------------------- */
+/* navbar style logo part*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    align-items: center;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+.nav_logo img{
+    width: 20%;
+    height: 70%;
+    padding-right: 1rem;
+}
+.nav_logo h1{
+    font-size: 36px;
+    display: inline;
+}
+/* navbar style link Part */
+.nav_link{
+    display: flex;
+    gap: 2.5rem;
+}
+.nav_link li{
+    list-style: none;
+}
+.nav_link li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+#first_child a{
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
