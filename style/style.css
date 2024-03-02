@@ -34,13 +34,15 @@
     padding-right: 1rem;
 }
 .nav_logo h1{
-    font-size: 36px;
-    display: inline;
+    font-size: 2.4rem;
 }
 /* navbar style link Part */
 .nav_link{
     display: flex;
     gap: 2.5rem;
+}
+.nav_icon{
+    display: none;
 }
 .nav_link li{
     list-style: none;
@@ -55,8 +57,36 @@
     font-weight: 700;
 }
 /* --------------------------------------------------------------- */
+/* banner part style */
+.banner{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 16px;
+    height: 60vh;;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.banner .banner_container{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+.banner_container{
+    border-radius: 16px;
+}
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
+
+/* responsive design for mobile */
+@media screen and (max-width:600px) {
+    .nav_link{
+        display:none;
+    }
+    .nav_icon{
+        display: block;
+    }
+}
