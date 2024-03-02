@@ -366,6 +366,46 @@ background: rgba(41, 206, 246, 0.05);
 }
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
+.footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 4rem 0;
+}
+.footer_container{
+    width: 85%;
+    margin: auto;
+}
+.footer_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.footer_text{
+    text-align: center;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+.footer_text p{
+    padding-bottom: 2rem;
+}
+
+.footer_text i{
+    padding-bottom: 3rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.footer_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.foot{
+    text-align: center;
+    padding-top: 4rem;
+}
+
 /* --------------------------------------------------------------- */
 
 /* responsive design for mobile */
