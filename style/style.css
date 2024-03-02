@@ -29,6 +29,7 @@ p {
 
 .p_btn{
     border-radius: 8px;
+    border: none;
     background-color: #FF5400;
     color: white;
     padding: 1rem 2rem;
@@ -128,6 +129,31 @@ p {
     border: 0;
 }
 /* --------------------------------------------------------------- */
+/* tour section style */
+.tour{
+    display: flex;
+    margin: 6rem auto;
+    gap: 3rem;
+}
+.tour_text{
+    width: 45%;
+}
+.tour_text h1{
+    font-size: 2.5rem;
+}
+.tour_text p{
+    padding: 1.5rem 0;
+}
+.tour_text ul{
+    padding-left: 2rem;
+}
+.tour_img{
+    width: calc( 100% - 45% - 3rem );
+}
+.tour_img img{
+    width: 100%;
+    height: 100%;
+}
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
