@@ -1,79 +1,136 @@
 /* common shared style */
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: "Mulish", sans-serif;
 }
-.width{
+
+.width {
     width: 85%;
     margin: 0px auto;
 }
-.p_color{
+
+.p_color {
     color: #FF5400;
 }
-.bold{
+
+.bold {
     font-weight: 800;
     font-style: normal;
     line-height: normal;
 }
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.p_btn{
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
 /* --------------------------------------------------------------- */
 /* navbar style logo part*/
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     margin: 3rem auto;
     align-items: center;
 }
-.nav_logo{
+
+.nav_logo {
     display: flex;
     align-items: center;
 }
-.nav_logo img{
+
+.nav_logo img {
     width: 20%;
     height: 70%;
     padding-right: 1rem;
 }
-.nav_logo h1{
+
+.nav_logo h1 {
     font-size: 2.4rem;
 }
+
 /* navbar style link Part */
-.nav_link{
+.nav_link {
     display: flex;
     gap: 2.5rem;
 }
-.nav_icon{
+
+.nav_icon {
     display: none;
 }
-.nav_link li{
+
+.nav_link li {
     list-style: none;
 }
-.nav_link li a{
+
+.nav_link li a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
 }
-#first_child a{
+
+#first_child a {
     color: #FF5400;
     font-size: 18px;
     font-weight: 700;
 }
+
 /* --------------------------------------------------------------- */
 /* banner part style */
-.banner{
+.banner {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     border-radius: 16px;
-    height: 60vh;;
+    height: 60vh;
+    ;
     text-align: center;
     position: relative;
     color: white;
 }
-.banner .banner_container{
+
+.banner .banner_overlay {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-}
-.banner_container{
     border-radius: 16px;
+}
+
+.banner_container {
+    width: 70%;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.banner_container h1 {
+    font-size: 3rem;
+}
+.banner_text p{
+    padding-top: 1.4rem;
+    padding-bottom: 2.5rem 
+}
+.banner_input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.banner_input input{
+    width: 30%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
 }
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
@@ -83,10 +140,11 @@
 
 /* responsive design for mobile */
 @media screen and (max-width:600px) {
-    .nav_link{
-        display:none;
+    .nav_link {
+        display: none;
     }
-    .nav_icon{
+
+    .nav_icon {
         display: block;
     }
 }
