@@ -388,4 +388,19 @@ background: rgba(41, 206, 246, 0.05);
     .destination_img .row_3 {
         flex-direction: column;
     }
+    .choose_container{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .choose_cart_p{
+        padding: 1rem;
+        border-radius: 16px;
+        width: 100%;
+    }
+    .choose_cart_3{
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
 }
