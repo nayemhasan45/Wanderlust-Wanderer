@@ -61,6 +61,8 @@ p {
 }
 
 /* navbar style link Part */
+.nav_container{
+}
 .nav_link {
     display: flex;
     gap: 2.5rem;
@@ -94,29 +96,21 @@ p {
     background-position: center;
     border-radius: 16px;
     height: 60vh;
-    ;
     text-align: center;
-    position: relative;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.banner .banner_overlay {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-    border-radius: 16px;
-}
-
 .banner_container {
-    width: 70%;
-    margin: auto;
-    padding: 5rem 0;
+    width: 85%;
 }
-
 .banner_container h1 {
     font-size: 3rem;
 }
 .banner_text p{
     padding-top: 1.4rem;
-    padding-bottom: 2.5rem 
+    padding-bottom: 4.5rem 
 }
 .banner_input{
     border-radius: 8px;
@@ -124,10 +118,11 @@ p {
     padding: 1rem;
     display: flex;
     justify-content: center;
+    align-items: center ;
     gap: 1rem;
 }
 .banner_input input{
-    width: 30%;
+    width: 90%;
     padding: 1rem;
     border-radius: 8px;
     border: 0;
@@ -143,8 +138,29 @@ p {
     .nav_link {
         display: none;
     }
-
+    .nav_logo h1 {
+        font-size: 1.4rem;
+    }
+    .nav_logo img {
+        width: 10%;
+        height: 50%;
+        padding-right: .5rem;
+    }
     .nav_icon {
         display: block;
+    }
+    .banner{
+        height: 80vh;
+    }
+    .banner_input{
+        flex-direction: column;
+    }
+    .banner_container h1 {
+        font-size: 1.4rem;
+    }
+    .banner_text p{
+        font-size: .9rem;
+        padding-top: .4rem;
+        padding-bottom: 1.5rem 
     }
 }
